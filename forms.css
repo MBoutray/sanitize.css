@@ -9,7 +9,8 @@
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   letter-spacing: inherit; /* 2 */
-  padding: 0.25em 0.375em; /* 1 */
+  padding-block: 0.25em;
+  padding-inline: 0.375em;
 }
 
 /**
@@ -21,7 +22,7 @@
   appearance: none;
   background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E") no-repeat right center / 1em;
   border-radius: 0;
-  padding-right: 1em;
+  padding-inline-end: 1em;
 }
 
 /**

@@ -3,6 +3,6 @@
  */
 
 :where(iframe, img, input, video, select, textarea) {
-  height: auto;
-  max-width: 100%;
+  block-size: auto;
+  max-inline-size: 100%;
 }

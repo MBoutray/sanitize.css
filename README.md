@@ -114,7 +114,7 @@ module.exports = {
 
 **Download**
 
-See https://csstools.github.io/sanitize.css/latest/sanitize.css
+See <https://csstools.github.io/sanitize.css/latest/sanitize.css>
 
 ## What does it do?
 
@@ -370,8 +370,8 @@ img,
 input,
 select,
 textarea {
-  height: auto;
-  max-width: 100%;
+  block-size: auto;
+  max-inline-size: 100%;
 }
 ```
 
